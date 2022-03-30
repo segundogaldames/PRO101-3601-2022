@@ -1,0 +1,42 @@
+si => if => para comprobar una o mas condiciones (verdadero o falso)
+
+si(edad >= 18)
+  mostrar bienvenida
+sino
+  mostrar salida
+  
+  
+//recibimos 3 notas y calculamos el promedio. Validamos que si el promedio es menor 4.0, enviamos un mensaje de examen. Si el promedio es >= a 4.0 y menor que 5.5, mensaje de solicitud de eximicion. Si el promedio es mayor o igual a 5.5 sera eximido
+
+Inicio
+  nota1, nota2, nota3
+  promedio = 0
+  
+  solicitar nota 1 ("Ingrese la primera nota: ")
+  leer nota1
+  
+  solicitar nota 2
+  leer nota2
+  
+  solicitar nota 3
+  leer nota3
+  
+  //una variable no tiene un dato asignado, el valor es igual a NULL
+  
+  
+  promedio = (nota1 + nota2 + nota3) / 3
+  
+  si (promedio < 4.0)
+    mostrar mensaje de rendicion de examen
+  sino
+    si (promedio >= 4.0 y promedio < 5.5)
+      mostrar mensaje de solicitud de eximicion
+    sino
+      mostrar mensaje de eximido
+    fin si
+  fin si
+  mostrar promedio
+fin
+  
+  
+  	

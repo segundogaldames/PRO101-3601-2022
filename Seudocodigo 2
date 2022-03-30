@@ -1,0 +1,35 @@
+ciclos => iteradores
+mientras => while
+hacer mientras => dowhile(la condicion va al final del ciclo)
+para => for
+
+para ejecutarse: 
+   condicion (verdadera o falsa)
+   variable tipo contador (se incrementa cada vez que pasa por el ciclo)
+   
+Inicio
+  nota, promedio = 0, suma = 0, contador = 1
+  
+  mientras(contador <= 3)
+    solicitar nota (contador)
+    leer nota
+    suma = suma + nota
+    
+    //contador = contador + 1
+    contador ++
+  fin mientras
+  
+  promedio = suma / 3
+  
+  si (promedio < 4.0)
+    mostrar mensaje de rendicion de examen
+  sino
+    si (promedio >= 4.0 y promedio < 5.5)
+      mostrar mensaje de solicitud de eximicion
+    sino
+      mostrar mensaje de eximido
+    fin si
+  fin si
+  
+  mostrar promedio
+fin 

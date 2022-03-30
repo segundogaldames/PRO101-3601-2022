@@ -1,0 +1,31 @@
+para => for
+  variable inicio, condicion, incrementador
+  
+//imprimir los primeros 100 numeros naturales
+
+Inicio
+  num = 1
+
+  //con mientras
+  mientras(num < 101)
+    mostrar num
+    num++
+  fin mientras
+  
+  //hacer mientras
+  hacer
+    mostrar num
+    num++
+  mientras(num < 101)
+  
+fin
+
+//usando for
+inicio
+
+  for(num = 1; num < 101; num ++)
+    mostrar num
+  finfor
+
+fin
+  
